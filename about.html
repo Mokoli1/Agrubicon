@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | AgRubicon</title>
+  <meta name="description" content="Learn more about AgRubicon's mission to support pork producers through data-driven tools and strategic insights.">
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+      }
+
+      .about-layout {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .about-main, .about-sidebar {
+        width: 100%;
+      }
+
+      .page-banner h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Topbar -->
+<div class="topbar">
+  <p>Email: jkerns@agrubicon.com | Phone: (515) 689-0522 </p>
+</div>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+  <a href="index.html" class="logo">
+    <img src="images/logo.png" alt="AgRubicon Logo" class="logo-img">
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li class="dropdown">
+      <a href="about.html">About ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="whyus.html">Our Why</a></li>
+        <li><a href="thewhat.html">Our What</a></li>
+      </ul>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Banner Section -->
+<section class="page-banner">
+  <h1>About Us</h1>
+</section>
+
+<!-- About Content + Sidebar -->
+<section class="about-page">
+  <div class="container about-layout">
+
+    <!-- Main Content -->
+    <div class="about-main">
+      <h2>Why now? What is at stake? What changes?</h2>
+      <p>Several years ago, I had someone who was good at these things who challenged me to articulate thoughts using the above questions as markers. For the AgRubicon concept, it is an easy discussion.</p>
+
+      <h2 id="who-we-are">Who We Are</h2>
+      <p>AgRubicon is the startup effort of Joe Kerns, a 40-year participant in our agriculture markets. If you wish for a more detailed account of the path that led to this point, please email me at <a href="mailto:jkerns@agrubicon.com">jkerns@agrubicon.com</a> and I will provide more color.</p>
+    </div>
+
+    <!-- Sidebar Menu -->
+    <aside class="about-sidebar">
+      <ul>
+        <li><a href="thewhat.html">The What</a></li>
+        <li><a href="whyus.html">Our Why</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-column">
+      <h4>Agrubicon</h4>
+      <p>Empowering pork producers with data-driven tools for smarter farming and better margins.</p>
+    </div>
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#" aria-label="LinkedIn"><img src="https://img.icons8.com/ios-filled/24/ffffff/linkedin.png" alt="LinkedIn"/></a>
+        <a href="#" aria-label="WhatsApp"><img src="https://img.icons8.com/ios-filled/24/ffffff/whatsapp.png" alt="WhatsApp"/></a>
+        <a href="#" aria-label="Twitter"><img src="https://img.icons8.com/ios-filled/24/ffffff/twitterx.png" alt="Twitter"/></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Agrubicon. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>

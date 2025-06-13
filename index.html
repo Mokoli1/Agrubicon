@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgRubicon - Pork Data</title>
+  <meta name="description" content="AgRubicon empowers pork producers with data tools to make smarter decisions, improve efficiency, and boost margins.">
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    @media (max-width: 100px) {
+      .navbar {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+      }
+
+      .value-container,
+      .about-grid,
+      .services-grid,
+      .cta-inline,
+      .footer-grid {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .about-image img {
+        width: 100%;
+      }
+
+      .horizontal-card {
+        flex-direction: column;
+        max-width: 100%;
+      }
+
+      .hero-slide {
+        height: 60vh;
+      }
+
+      .slide-content h1 {
+        font-size: 24px;
+      }
+
+      .slide-content p {
+        font-size: 14px;
+      }
+
+      .btn {
+        font-size: 14px;
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Topbar -->
+<div class="topbar">
+  <p>Email: jkerns@agrubicon.com | Phone: (515) 689-0522 </p>
+</div>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+  <a href="index.html" class="logo">
+    <img src="images/logo.png" alt="AgRubicon Logo" class="logo-img">
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li class="dropdown">
+      <a href="about.html">About ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="whyus.html">Our Why</a></li>
+        <li><a href="thewhat.html">Our What</a></li>
+      </ul>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero Slider -->
+<section class="hero-slider">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide hero-slide" style="background-image: url('images/Banner1.png');">
+        <div class="slide-content">
+          <h1>Empowering Pork Producers</h1>
+          <p>Smarter data. Better margins. A stronger future.</p>
+          <a href="thewhat.html" class="btn">What Drives Us</a>
+        </div>
+      </div>
+
+      <div class="swiper-slide hero-slide" style="background-image: url('images/Banner2.png');">
+        <div class="slide-content">
+          <h1>Take Control of Your Pricing</h1>
+          <p>Reclaim your data and define your market power.</p>
+          <a href="contact.html" class="btn">Get in Touch</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+<!-- Value Proposition Strip -->
+<div class="value-container">
+  <a href="whyus.html" class="value-card full-link-card">
+    <img src="https://img.icons8.com/ios-filled/50/80ba26/combo-chart.png" alt="Why AgRubicon Icon">
+    <h3>Why AgRubicon</h3>
+    <p>A rubicon is generally understood to be a line or a boundary. Especially one that when crossed...</p>
+  </a>
+
+  <a href="whyus.html" class="value-card full-link-card">
+    <img src="https://img.icons8.com/ios-filled/50/80ba26/line-chart.png" alt="Why This Icon">
+    <h3>Why This</h3>
+    <p>Ask yourself this: why do we, as an industry, voluntarily submit...</p>
+  </a>
+</div>
+
+<!-- About Us Section -->
+<section class="about-section">
+  <div class="container about-grid">
+    <div class="about-text">
+      <h2>About Us</h2>
+      <h3>Why now? What is at stake? What changes?</h3>
+      <p>Several years ago, I had someone who was good at these things who challenged me to articulate thoughts using the above questions as markers. For the AgRubicon concept, it is an easy discussion.</p>
+      <a href="about.html#who-we-are" class="btn">Read More</a>
+    </div>
+    <div class="about-image">
+      <img src="images/Aboutus.jpg" alt="About AgRubicon">
+    </div>
+  </div>
+</section>
+
+<!-- Featured Services -->
+<section class="services-section">
+  <div class="services-header">
+    <h2>Explore What Drives Us</h2>
+    <p>From market data to farm optimization, Agrubicon powers every part of your business.</p>
+  </div>
+
+  <div class="services-grid">
+
+    <a href="thewhat.html" class="value-card full-link-card">
+      <img src="https://img.icons8.com/ios-filled/50/80ba26/farm-2.png" alt="Why Now Icon">
+      <h3>Why Now</h3>
+      <p>The pork production community is under duress. Since the debacle of 1998 and...</p>
+    </a>
+
+    <a href="thewhat.html" class="horizontal-card full-link-card">
+      <div class="card-icon">
+        <img src="https://img.icons8.com/ios-filled/50/80ba26/combo-chart.png" alt="What is at Stake Icon" />
+      </div>
+      <div class="card-text">
+        <h3>What is at Stake?</h3>
+        <p>As the industry consolidates, profits are vanishing. Producers must act to preserve the future.</p>
+      </div>
+    </a>
+
+    <a href="thewhat.html" class="horizontal-card full-link-card">
+      <div class="card-icon">
+        <img src="https://img.icons8.com/ios-filled/50/80ba26/combo-chart.png" alt="What Changes Icon" />
+      </div>
+      <div class="card-text">
+        <h3>What Changes?</h3>
+        <p>Data, technology, and consolidation are reshaping everything. See how we fight back.</p>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<!-- CTA Banner -->
+<section class="cta-banner">
+  <div class="cta-inline">
+    <h2>Make A Difference With <span>Expert Team</span></h2>
+    <a href="contact.html" class="cta-btn">LET'S WORK TOGETHER →</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-column">
+      <h4>Agrubicon</h4>
+      <p>Empowering pork producers with data-driven tools for smarter farming and better margins.</p>
+    </div>
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#" aria-label="LinkedIn"><img src="https://img.icons8.com/ios-filled/24/ffffff/linkedin.png" alt="LinkedIn"/></a>
+        <a href="#" aria-label="WhatsApp"><img src="https://img.icons8.com/ios-filled/24/ffffff/whatsapp.png" alt="WhatsApp"/></a>
+        <a href="#" aria-label="Twitter"><img src="https://img.icons8.com/ios-filled/24/ffffff/twitterx.png" alt="Twitter"/></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Agrubicon. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- JS Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
